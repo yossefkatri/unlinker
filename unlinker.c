@@ -23,4 +23,6 @@ int main(int argc, char* argv[])
     show_hex((char *) &elfheader , sizeof(Elf32_Ehdr));
     fclose(executable);
     return 0;
+
+    
 }
